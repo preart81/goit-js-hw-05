@@ -2,7 +2,6 @@
  * This function takes an array of user objects and returns an array of user names.
  *
  * @param {Array} users - An array of user objects.
- * @param {Array} users[].name - The name of the user.
  * @returns {Array} An array of user names.
  */
 const getUserNames = (users = []) => users.map((user) => user.name);

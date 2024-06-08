@@ -1,3 +1,10 @@
+/**
+ * This function takes an array of user objects and a friend name and returns an array of users who have the specified friend.
+ *
+ * @param {Array} users - An array of user objects.
+ * @param {string} friendName - The name of the friend to search for.
+ * @returns {Array} An array of user objects who have the specified friend.
+ */
 const getUsersWithFriend = (users, friendName) =>
   users.filter((user) => user.friends.includes(friendName));
 
